@@ -18,13 +18,14 @@ while True:
     # Half speed
     out1FL.duty_u16(32000)
     sleep(1)
-    # Backward
     out1FL.duty_u16(0)
-    sleep(0.1)
+    sleep(0.5)
+
+    # Backward
     out2FL.duty_u16(64000)
     sleep(1)
     # Half speed
     out2FL.duty_u16(32000)
     sleep(1)
     out2FL.duty_u16(0)
-    sleep(0.01)
+    sleep(0.5)
